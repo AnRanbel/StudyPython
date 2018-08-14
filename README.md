@@ -5,5 +5,5 @@
 #### CalThreeKindom:三国演义人物出场频率
 #### DrawDigits:画数码电子管（日期）
 #### KochDraw:画雪花
-#### auto_reply:微信自动回复（itchat+图灵机器人）
+#### WeChatAutoReply:微信自动回复（itchat+图灵机器人）
 
