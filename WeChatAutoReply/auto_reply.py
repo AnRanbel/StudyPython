@@ -73,7 +73,7 @@ def auto_reply(msg):
 		2017年5月，秦岚担当出品人的网络电影《超级APP》在广州开机；2018年7月，在古装剧《延禧攻略》中饰演富察容音。'
 	elif ('山风大哥' in msg['Text']) or ('山風大哥' in msg['Text']):
 		itchat.send(u"山风大哥家的baozi：喏，就是下面这位小姐姐咯~", userid)
-		itchat.send_image(fileDir='../images/shanfeng.gif', toUserName=userid)
+		itchat.send_image(fileDir='./images/shanfeng.gif', toUserName=userid)
 	# 普通回复
 	else:
 		itchat.send(u"山风大哥家的baozi：" + temp['results'][0]['values']['text'],userid)
@@ -83,7 +83,7 @@ def auto_reply(msg):
 def auto_reply(msg):
 	NickName = msg['User']['NickName']
 	user = itchat.search_friends(name=NickName)[0]
-	user.send_image('../images/cute_pig.gif')
+	user.send_image('./images/cute_pig.gif')
 	download_files(msg,user)  # 下载图片
 
 #语音
@@ -91,7 +91,7 @@ def auto_reply(msg):
 # def auto_reply(msg):
 # 	NickName = msg['User']['NickName']
 # 	user = itchat.search_friends(name=NickName)[0]
-# 	user.send_image('../images/cute_pig.gif')
+# 	user.send_image('./images/cute_pig.gif')
 
 #处理多媒体类消息（图片、录音、文件、视频）
 @itchat.msg_register([RECORDING,ATTACHMENT,VIDEO])
