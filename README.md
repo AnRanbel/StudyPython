@@ -6,4 +6,6 @@
 #### DrawDigits:画数码电子管（日期）
 #### KochDraw:画雪花
 #### WeChatAutoReply:微信自动回复（itchat+图灵机器人）
+#### WeiboSpider:抓取新浪微博用户信息
+
 
