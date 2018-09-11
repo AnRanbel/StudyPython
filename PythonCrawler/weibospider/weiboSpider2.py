@@ -637,9 +637,6 @@ def main():
     # locale.getlocale()
     try:
         # 使用实例,输入一个用户id，所有信息都会存储在wb实例中
-        # user_id = 1192329893  # 可以改成任意合法的用户id（爬虫的微博id除外）   ***秦岚
-        # user_id=1829886203  #吴秀波
-        # user_id=5690064659 #李冰洁
         user_id=1239246050 #薛之谦
         wb = Weibo(user_id)  # 调用Weibo类，创建微博实例wb
         wb.start()  # 爬取微博信息
