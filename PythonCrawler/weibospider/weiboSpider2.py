@@ -26,8 +26,8 @@ import locale
 
 class Weibo:
     headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36",
-        "Cookie": "_T_WM=975d50dfa2756434c374846c1a7ed7ec; SUB=_2A252i9SoDeRhGeRO7FsQ8ibIwj-IHXVSd_zgrDV6PUJbkdAKLUrFkW1NUEpMUoMxnXPxK3AoLbaxn_5om_z6KBdw; SUHB=0QSIGRIIz5Rirg; SCF=AosVj6I4IlKFId3rnXNVyfAZVEOLNKQ1rT3q5Z44lVEo0amIegv8_-PDafcAPVlXRSTWoNs2W_DVAjRRq1HJp78.; SSOLoginState=1536140538"
+        "User-Agent": "your user_agent",
+        "Cookie": "your_cookie"
     }
     
     # Weibo类初始化
